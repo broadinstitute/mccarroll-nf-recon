@@ -1,0 +1,10 @@
+.idea
+.nextflow.log*
+.nextflow
+results*
+work/
+report-*.html
+null/
+.vscode
+.nf-test*
+.DS_Store

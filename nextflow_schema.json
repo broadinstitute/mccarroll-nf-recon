@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/broadinstitute/mccarroll-nf-recon/nextflow_schema.json",
+  "title": "broadinstitute/mccarroll-nf-recon pipeline parameters",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "recon_count_and_knn_dir": {
+      "type": "string"
+    },
+    "recon_dir": {
+      "type": "string"
+    },
+    "bcl_name": {
+      "type": "string"
+    },
+    "recon_name": {
+      "type": "string"
+    },
+    "bead": {
+      "type": "integer"
+    },
+    "diameter": {
+      "type": "number"
+    },
+    "knn_filter": {
+      "type": "boolean"
+    },
+    "n_neighbors": {
+      "type": "integer"
+    },
+    "local_connectivity": {
+      "type": "integer"
+    },
+    "spread": {
+      "type": "number"
+    },
+    "min_dist": {
+      "type": "number"
+    },
+    "repulsion_strength": {
+      "type": "number"
+    },
+    "negative_sample_rate": {
+      "type": "integer"
+    },
+    "n_epochs": {
+      "type": "integer"
+    },
+    "help_full": {
+      "type": "boolean"
+    },
+    "show_hidden": {
+      "type": "boolean"
+    }
+  }
+}
